@@ -34,8 +34,8 @@ Smartphone Compatible web template, free web designs for Nokia, Samsung, LG, Son
 <div class="main" id="home">
 <!-- idioms -->
 	<div class="idioms">
-		<a href="index.html"><img src="images/esp.png"></a>
-		<a href="index_en.html"><img src="images/eng.png"></a>
+		<a href="index.php"><img src="images/esp.png"></a>
+		<a href="index_en.php"><img src="images/eng.png"></a>
 	</div>
 <!-- banner -->
 	<div class="banner">
@@ -72,14 +72,12 @@ Smartphone Compatible web template, free web designs for Nokia, Samsung, LG, Son
 						<li><a href="https://www.facebook.com/profile.php?id=100005230715487" title="Facebook" target="_blank"><i class="fa fa-facebook" ></i></a></li>
 						<li><a href="https://twitter.com/jm_fernandezrod" title="Twitter" target="_blank"><i class="fa fa-twitter"></i></a></li>
 						<li><a href="https://es.linkedin.com/in/jose-maria-fernandez-rodriguez-247518136" title="Linkedin" target="_blank"><i class="fa fa-linkedin"></i></a></li>
-						<li><a href="cv/jose-fernandez.pdf" target="_blank" title="Curriculum Vitae"><i class="fa fa-file-text"></i></a></li>
 						<li><a href="https://github.com/jose-fernandez" target="_blank" title="GitHub"><i class="fa fa-github"></i></a></li> 
 						<li><script type="text/javascript" src="https://secure.skypeassets.com/i/scom/js/skype-uri.js"></script>
 						<div id="SkypeButton_Call_jose.fernandez91_1">
 							<a href="skype:jose.fernandez91?chat" onclick="Skype.tryAnalyzeSkypeUri('chat', '0');"><i class="fa fa-skype"></i></a>
-						</div>
-							
-						</li></li>
+						</div></li>
+						<li><a href="cv/jose-fernandez.pdf" target="_blank" title="Curriculum Vitae"><i class="fa fa-file-text"></i></a></li>
 					</ul>
 	</div>
 <!-- //banner -->
@@ -648,6 +646,16 @@ Smartphone Compatible web template, free web designs for Nokia, Samsung, LG, Son
 			<p>© 2016 Jose M Fernandez | Todos los derechos reservados</p>
 		</div>
 	</div>
+<!-- php-Email -->
+<?php
+	if ($_POST['name']) {
+		$mail = $_POST['name'].' | '.$_POST['email'].' | '.$_POST['phone'].' | '.$_POST['message'];
+		//Titulo
+		$titulo = 'Mensaje desde la web';
+		//Enviamos el mensaje a tu_dirección_email 
+		$bool = mail('jose@josefer.tk',$titulo,$mail);
+	}
+?>
 <!-- //footer -->
 <script src="js/jquery-2.2.3.min.js"></script> 
 <!-- skills -->

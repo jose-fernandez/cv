@@ -34,8 +34,8 @@ Smartphone Compatible web template, free web designs for Nokia, Samsung, LG, Son
 <div class="main" id="home">
 <!-- idioms -->
 	<div class="idioms">
-		<a href="index.html"><img src="images/esp.png"></a>
-		<a href="index_en.html"><img src="images/eng.png"></a>
+		<a href="index.php"><img src="images/esp.png"></a>
+		<a href="index_en.php"><img src="images/eng.png"></a>
 	</div>
 <!-- banner -->
 	<div class="banner">
