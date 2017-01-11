@@ -571,7 +571,7 @@ Smartphone Compatible web template, free web designs for Nokia, Samsung, LG, Son
 			<h3 class="w3l_head w3l_head1">Contacto</h3>
 			<p class="w3ls_head_para w3ls_head_para1">Contacte conmigo</p>
 			<div class="w3_mail_grids">
-				<form action="php/email.php" method="post">
+				<form>
 					<div class="col-md-6 w3_agile_mail_grid">
 						<span class="input input--ichiro">
 							<input class="input__field input__field--ichiro" type="text" name="name" id="input-25" placeholder=" " required="">
@@ -595,7 +595,7 @@ Smartphone Compatible web template, free web designs for Nokia, Samsung, LG, Son
 					</div>
 					<div class="col-md-6 w3_agile_mail_grid">
 						<textarea name="message" placeholder="Su mensaje" required=""></textarea>
-						<input type="submit" value="Enviar">
+						<input type="submit" value="Enviar" onclick="event.preventDefault()>
 					</div>
 					<div class="clearfix"> </div>
 				</form>
@@ -649,16 +649,6 @@ Smartphone Compatible web template, free web designs for Nokia, Samsung, LG, Son
 			<p>© 2016 Jose M Fernandez | Todos los derechos reservados</p>
 		</div>
 	</div>
-<!-- php-Email -->
-<?php
-	if ($_POST['name']) {
-		$mail = $_POST['name'].' | '.$_POST['email'].' | '.$_POST['phone'].' | '.$_POST['message'];
-		//Titulo
-		$titulo = 'Mensaje desde la web';
-		//Enviamos el mensaje a tu_dirección_email 
-		$bool = mail('jose@josefer.tk',$titulo,$mail);
-	}
-?>
 <!-- //footer -->
 <script src="js/jquery-2.2.3.min.js"></script> 
 <!-- skills -->
