@@ -395,7 +395,7 @@ Smartphone Compatible web template, free web designs for Nokia, Samsung, LG, Son
 					</div>
 					<div class="agileinfo_portfolio_grid hovereffect">
 						<a class="cm-overlay" href="images//gallery/proceso.jpg">
-							<img src="images//gallery/publicidad.jpg" alt=" " class="img-responsive">
+							<img src="images/gallery/pu.jpg" alt=" " class="img-responsive">
 							<div class="overlay">
 								<h4>Public. en Línea</h4>
 							

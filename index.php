@@ -19,6 +19,9 @@ Smartphone Compatible web template, free web designs for Nokia, Samsung, LG, Son
 <!-- favicon -->
 <link rel="shortcut icon" href="images/cv.png">
 
+<!-- fontawesome -->
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
 <!-- //gallery -->
 <!-- font-awesome icons -->
 <link href="css/font-awesome.css" rel="stylesheet"> 
@@ -395,7 +398,7 @@ Smartphone Compatible web template, free web designs for Nokia, Samsung, LG, Son
 					</div>
 					<div class="agileinfo_portfolio_grid hovereffect">
 						<a class="cm-overlay" href="images//gallery/proceso.jpg">
-							<img src="images//gallery/publicidad.jpg" alt=" " class="img-responsive">
+							<img src="images/gallery/pu.jpg" alt=" " class="img-responsive">
 							<div class="overlay">
 								<h4>Public. en Línea</h4>
 							
