@@ -1,10 +1,10 @@
 function init(){
 	var list=[];
 	document.getElementById("submit").addEventListener("click", function(event){
-		
-		for (let i=0;i<3;i++){
+		for (let i=0;i<4;i++){
 			list.push(event.currentTarget.parentElement.parentElement[i].value);
 		}
+    console.log(list);
 		loadDoc(list);
 	});
 }
@@ -13,13 +13,16 @@ function loadDoc(list) {
   var xhttp = new XMLHttpRequest();
   xhttp.onreadystatechange = function() {
     if (this.readyState == 4 && this.status == 200) {
-    	console.log(this.responseText);
-    	document.getElementById("result").innerHTML = this.responseText;
+      if (this.responseText == "2"){
+        document.getElementById("result").innerHTML = "<i class='fa fa-times fa-2x'></i> Mensaje no enviado";
+      }else{
+        document.getElementById("result").innerHTML = "<i class='fa fa-check fa-2x'></i> Enviado Correctamente";
+      }
     }
   };
-  xhttp.open("POST", "ejercicio2.php", true);
+  xhttp.open("POST", "php/email.php", true);
   xhttp.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
-  xhttp.send(`date=${list[0]}&cp=${list[1]}&tlf=${list[2]}`);
+  xhttp.send(`name=${list[0]}&email=${list[1]}&phone=${list[2]}&msg=${list[3]}`);
 }
 
 window.onload=function(){

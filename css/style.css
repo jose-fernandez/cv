@@ -1,9 +1,3 @@
-/*--
-Author: W3layouts
-Author URL: http://w3layouts.com
-License: Creative Commons Attribution 3.0 Unported
-License URL: http://creativecommons.org/licenses/by/3.0/
---*/
 html, body{
   font-size: 100%;
 	font-family: 'Open Sans', sans-serif;
@@ -33,6 +27,18 @@ input[type="submit"],input[type="reset"],.w3ls_footer_grid_leftl,.w3ls_footer_gr
 	-moz-transition: .5s ease-in;
 	-o-transition: .5s ease-in;
 	-ms-transition: .5s ease-in;
+}
+/*-- Check Contact --*/
+.fa-times{
+  padding-top: 1em;
+  color:red;
+}
+.fa-check{
+  padding-top: 1em;
+  color:green;
+}
+#result{
+  font-family: sans-serif;
 }
 /*-- header --*/
 /*-- idioms --*/

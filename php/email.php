@@ -1,15 +1,15 @@
-<!-- php-Email -->
 <?php
-	if ($_POST['name']) {
-		$mail = $_POST['name'].' | '.$_POST['email'].' | '.$_POST['phone'].' | '.$_POST['message'];
+$list=[$_POST["name"], $_POST["email"], $_POST["phone"], $_POST["msg"]];
+	if ($list) {
+		$mail = $list[0].' | '.$list[1].' | '.$list[2].' | '.$list[3];
 		//Titulo
 		$titulo = 'Mensaje desde la web';
 		//Enviamos el mensaje a tu_dirección_email 
 		$bool = mail('jose@josefer.tk',$titulo,$mail);
 		if ($bool){
-			echo "Enviado correctamente.";
+			echo "1";
 		}else{
-			echo "Email no enviado";
+			echo "2";
 		}
 	}
 ?>
