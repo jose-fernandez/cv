@@ -41,6 +41,13 @@ input[type="submit"],input[type="reset"],.w3ls_footer_grid_leftl,.w3ls_footer_gr
   font-family: sans-serif;
 }
 /*-- header --*/
+.navbar-brand {
+  line-height: 35px;
+  font-size: 1.8em;
+  height: 63px;
+  color: #fff;
+  padding:15px 0;
+}
 /*-- idioms --*/
 .idioms{
   text-align: right;
@@ -49,7 +56,6 @@ input[type="submit"],input[type="reset"],.w3ls_footer_grid_leftl,.w3ls_footer_gr
 }
 .idioms>a>img{
   width: 25px;
-
 }
 
 
