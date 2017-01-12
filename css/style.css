@@ -41,13 +41,6 @@ input[type="submit"],input[type="reset"],.w3ls_footer_grid_leftl,.w3ls_footer_gr
   font-family: sans-serif;
 }
 /*-- header --*/
-.navbar-brand {
-  line-height: 35px;
-  font-size: 1.8em;
-  height: 63px;
-  color: #fff;
-  padding:15px 0;
-}
 /*-- idioms --*/
 .idioms{
   text-align: right;
@@ -182,7 +175,7 @@ input[type="submit"],input[type="reset"],.w3ls_footer_grid_leftl,.w3ls_footer_gr
 }
 /*-- //header --*/
 #home {
-    background: url(../images/wallpp/6.jpg) no-repeat center top;
+    background: url(../images/wallpp/6_opt.jpg) no-repeat center top;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -537,7 +530,7 @@ h3.w3l_head.two {
 /*-- //services --*/
 /*-- /skills --*/
 .skills{
-      background: url(../images/wallpp/3.jpg) no-repeat center top;
+      background: url(../images/wallpp/3_opt.jpg) no-repeat center top;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -729,7 +722,7 @@ p.b_label {
 }
 /*-- //portfolio --*/
 #counter {
-    background: url(../images/wallpp/bak4.jpg) no-repeat center top;
+    background: url(../images/wallpp/bak4_opt.jpg) no-repeat center top;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -950,7 +943,7 @@ p.counter {
 /*-- //mail --*/
 /*-- footer --*/
 .w3l_footer{
-	background: url(../images/wallpp/team.jpg) no-repeat center top;
+	background: url(../images/wallpp/team_opt.jpg) no-repeat center top;
   background-size: cover;
   -webkit-background-size: cover;
   -moz-background-size: cover;
